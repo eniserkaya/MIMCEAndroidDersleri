@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name" translatable="false">DersIki</string>
+    <string name="text_yazisi">This is a textview.</string>
+
+
+
+</resources>

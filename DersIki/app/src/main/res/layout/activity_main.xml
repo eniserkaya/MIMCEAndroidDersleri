@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context="com.eniserkaya.dersiki.MainActivity">
+
+    <Button
+        android:id="@+id/button_bir"
+        android:layout_marginTop="@dimen/margin_left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buna Basılır"
+        android:layout_marginBottom="@dimen/margin_left"
+        android:textColor="@color/beyaz"
+        android:background="#242121"/>
+
+    <Button
+        android:layout_marginTop="@dimen/margin_left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Renkli Button"
+        android:textColor="@color/beyaz"
+        android:id="@+id/button_renkli"
+        android:background="@color/colorAccent" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_yazisi"
+        android:textColor="#000"
+        android:layout_margin="@dimen/margin_text"
+        android:id="@+id/text_bilgi" />
+
+</LinearLayout>
