@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bosluklar">10dp</dimen>
+    <dimen name="yazi_boyutu">20sp</dimen>
+    <dimen name="yazimin_boyutu">10sp</dimen>
+</resources>

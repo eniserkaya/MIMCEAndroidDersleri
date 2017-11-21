@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/bosluklar"
+    android:orientation="vertical"
+    android:weightSum="18"
+    tools:context="com.eniserkaya.tesbihuygulamasi.MainActivity">
+
+
+    <Button
+        android:id="@+id/tesbih_bir_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:textColor="@android:color/white"
+        android:text="Allah-u Ekber!" />
+
+    <TextView
+        android:id="@+id/tesbih_bir_sayac_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:textSize="@dimen/yazi_boyutu"
+
+        android:text="Zikir Sayisi: ">
+
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/tesbih_bir_tur_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:textSize="@dimen/yazi_boyutu"
+
+        android:text="Tur Sayisi: " />
+
+    <Button
+        android:id="@+id/tesbih_iki_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+
+        android:text="Sübhanallah!" />
+
+    <TextView
+        android:id="@+id/tesbih_iki_sayac_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:textSize="@dimen/yazi_boyutu"
+
+        android:text="Zikir Sayisi" />
+
+    <TextView
+        android:id="@+id/tesbih_iki_tur_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:textSize="@dimen/yazi_boyutu"
+
+        android:text="Tur Sayisi:" />
+
+    <Button
+        android:id="@+id/tesbih_uc_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+
+        android:text="Elhamdülillah" />
+
+    <TextView
+        android:id="@+id/tesbih_uc_sayac_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:textSize="@dimen/yazi_boyutu"
+
+        android:text="Tesbih Sayisi: " />
+
+    <TextView
+        android:id="@+id/tesbih_uc_tur_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:textSize="@dimen/yazimin_boyutu"
+        android:text="Tur Sayisi:" />
+
+
+
+</LinearLayout>
