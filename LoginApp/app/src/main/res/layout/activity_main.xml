@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/margins"
+    android:background="@color/colorAccent"
+    tools:context="com.eniserkaya.loginapp.MainActivity">
+
+
+    <EditText
+        android:id="@+id/username_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:hint="Kullanıcı Adı"
+
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/pw_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/username_id"
+        android:layout_alignStart="@+id/username_id"
+        android:layout_below="@+id/username_id"
+        android:layout_marginTop="@dimen/margin"
+
+        android:ems="10"
+        android:hint="Şifre"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/giris_yap_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/pw_id"
+        android:layout_alignLeft="@+id/pw_id"
+        android:layout_alignRight="@+id/pw_id"
+        android:layout_alignStart="@+id/pw_id"
+        android:layout_below="@+id/pw_id"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary"
+        android:text="GİRİŞ YAP" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_above="@+id/username_id"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        app:srcCompat="@mipmap/ic_profile_foto" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Giriş Sayfamıza Hoşgeldiniz..." />
+</RelativeLayout>
