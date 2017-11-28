@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">LoginApp</string>
+
+    <string-array name="ulkeArray">
+        <item>Türkiye</item>
+        <item>Katar</item>
+        <item>Rusya</item>
+        <item>Pakistan</item>
+        <item>Endonezya</item>
+        <item>Afganistan</item>
+
+    </string-array>
 </resources>

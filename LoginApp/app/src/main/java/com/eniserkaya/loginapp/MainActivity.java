@@ -1,5 +1,7 @@
 package com.eniserkaya.loginapp;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -59,6 +61,28 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void doLogin(String userName, String pw) {
+
+        String kullaniciAdi = "aeniserkaya";
+        String sifre = "asd123";
+
+        if(kullaniciAdi.equalsIgnoreCase(userName) &&
+                sifre.equalsIgnoreCase(pw)){
+            Toast.makeText(this, "GİRİŞ BAŞARILI", Toast.LENGTH_SHORT).show();
+
+           Bundle bundle = new Bundle();
+            Intent intent = new Intent(MainActivity.this,ProfileActivity.class);
+            //intent.putExtra("kullaniciAdi","Ahmed");
+            bundle.putString("kullaniciAdi","Ahmed");
+            bundle.putInt("age",22);
+
+            intent.putExtras(bundle);
+            startActivity(intent);
+
+        }
+        else{
+            Toast.makeText(this, "Kardeş Hatalı Şifre!", Toast.LENGTH_SHORT).show();
+        }
+
 
         // bir tane şifre değişkeni tanımla
         // bir tane userName değişkeni tanımla

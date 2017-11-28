@@ -21,7 +21,8 @@
         android:ems="10"
         android:hint="Kullanıcı Adı"
 
-        android:inputType="textPersonName" />
+        android:inputType="textPersonName"
+        android:text="aeniserkaya" />
 
     <EditText
         android:id="@+id/pw_id"
@@ -34,7 +35,8 @@
 
         android:ems="10"
         android:hint="Şifre"
-        android:inputType="textPassword" />
+        android:inputType="textPassword"
+        android:text="asd123" />
 
     <Button
         android:id="@+id/giris_yap_id"
@@ -65,4 +67,5 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:text="Giriş Sayfamıza Hoşgeldiniz..." />
+
 </RelativeLayout>
