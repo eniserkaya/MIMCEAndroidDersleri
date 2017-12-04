@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/padding">
+
+
+    <ImageView
+        android:id="@+id/photo_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/user_name_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/photo_img"
+        android:layout_toRightOf="@+id/photo_img"
+        android:layout_marginTop="@dimen/padding"
+        android:layout_marginLeft="@dimen/padding"
+        android:textStyle="bold"
+        android:textSize="@dimen/text_size_name"
+        android:text="Ahmed Enis Erkaya" />
+
+    <TextView
+        android:id="@+id/phone_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_name_tv"
+        android:layout_toEndOf="@+id/photo_img"
+        android:layout_toRightOf="@+id/photo_img"
+        android:layout_marginLeft="@dimen/padding"
+        android:layout_marginTop="@dimen/margin_top"
+        android:textSize="@dimen/phone_text_size"
+        android:text="0554 415 7979" />
+</RelativeLayout>
