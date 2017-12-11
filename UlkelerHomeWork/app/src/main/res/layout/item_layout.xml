@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <ImageView
+        android:id="@+id/bayrak_img"
+        android:layout_width="125dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitStart"
+        app:srcCompat="@drawable/filistin" />
+
+    <TextView
+        android:id="@+id/ulke_adi_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/bayrak_img"
+        android:layout_toRightOf="@+id/bayrak_img"
+        android:layout_marginTop="@dimen/padding"
+        android:layout_marginLeft="@dimen/padding"
+        android:textStyle="bold"
+        android:textSize="@dimen/text_size_name"
+        android:text="Ahmed Enis Erkaya" />
+
+    <TextView
+        android:id="@+id/kurulus_yili_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ulke_adi_tv"
+        android:layout_marginLeft="@dimen/padding"
+        android:layout_marginTop="@dimen/margin_top"
+        android:layout_toEndOf="@+id/bayrak_img"
+        android:layout_toRightOf="@+id/bayrak_img"
+        android:text="0554 415 7979"
+        android:textSize="@dimen/phone_text_size" />
+
+</RelativeLayout>

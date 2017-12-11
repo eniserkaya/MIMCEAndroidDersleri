@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding">16dp</dimen>
+    <dimen name="margin_top">16dp</dimen>
+    <dimen name="text_size_name">16sp</dimen>
+    <dimen name="phone_text_size">10sp</dimen>
+</resources>

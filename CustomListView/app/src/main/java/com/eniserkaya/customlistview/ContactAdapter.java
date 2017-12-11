@@ -33,7 +33,7 @@ public class ContactAdapter extends ArrayAdapter<Contact> {
 
         Contact contact = getItem(position);
 
-        if(position % 2 == 0){
+       /* if(position % 2 == 0){
 
             convertView.setBackgroundColor(ContextCompat.getColor(getContext(), R.color.erkek));
 
@@ -42,7 +42,7 @@ public class ContactAdapter extends ArrayAdapter<Contact> {
             convertView.setBackgroundColor(ContextCompat.getColor(getContext(), R.color.kadin));
 
         }
-
+*/
         userNameTv.setText(contact.getUserName());
         phoneNumberTv.setText(contact.getPhoneNumber());
 
